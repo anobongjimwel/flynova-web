@@ -1,0 +1,17 @@
+div.accordion > div.card {
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+div.accordion > div.card > div.card-header > h2 > button {
+    color: red
+}
+
+div.accordion > div.card > div.card-header {
+    background-color: rgba(255, 255, 255, 0.50);
+}
+
+#rightWindow {
+    background-color: rgba(255, 255, 255, 0.85);
+    max-height: calc(100vh);
+    overflow-y: scroll;
+}
